@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="hangman.js"></script>
+        <link rel="stylesheet" type="text/css" href="hangman.css">
+        <title>Hangman</title>
+    </head>
+    <body>
+		<h1>HANGMAN</h1>
+		<input type="button" onclick="newGame()" value="New Game"/>
+		<img id="drawing" src="http://www.dreamincode.net/forums/uploads/monthly_12_2013/post-635566-138610833847.jpg"/>
+		<p id="word"></p><br>
+		<p id="error"></p>
+		<input type="text" id="input"/>
+		<input type="button" onclick="guess()" value="Guess"/>
+		<p id="letters"></p>
+    </body>
+</html>
